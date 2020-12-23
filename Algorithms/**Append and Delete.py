@@ -19,9 +19,9 @@ def appendAndDelete(s, t, k):
         else: 
             break
     
-    d= k - len(s) - len(t) + 2*commonLength
+    d = k - len(s) - len(t) + 2*commonLength
     
-    if(d>=0) and (d%2==0): 
+    if (d>=0) and (d%2==0): 
         return "Yes"
   
     return "No"
